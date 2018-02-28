@@ -23,13 +23,13 @@ int maxp(int n)
 signed main()
 {
     int test;
-    cin>>test;
+    cin >> test;
     while(test--)
     {
         int n;
-        cin>>n;
+        cin >> n;
         int ans=maxp(n);
-        cout<<ans<<"\n";
+        cout << ans << "\n";
         
     }
     return 0;
