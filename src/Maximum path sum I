@@ -1,7 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
 #define int long long
-#define fore(i,n) for(int i=0;i<n;i++)
 #define pb push_back
 
 signed main()
@@ -28,7 +27,7 @@ signed main()
         {
             for (int j = 0; j <= i; j++)
             {
-                dp[i][j] += max(dp[i + 1][j], dp[i + 1][j + 1]);    
+                dp[i][j] += max(dp[i + 1][j] , dp[i + 1][j + 1]);    
             }
         }
         cout << dp[0][0] << endl;    
